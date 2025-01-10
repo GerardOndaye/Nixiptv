@@ -1,0 +1,10 @@
+# Allow all search engines to crawl everything
+User-agent: *
+Disallow:
+
+# Allow Googlebot to crawl everything
+User-agent: Googlebot
+Disallow:
+
+# Sitemap location (Important for SEO)
+Sitemap: https://nixiptv.vercel.app/sitemap.xml
